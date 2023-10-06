@@ -1,0 +1,71 @@
+//Lecture 4 part 1
+
+#include <iostream>
+using namespace std;  
+int main()
+{
+    int a,b;
+    cout<<"Input 2 integers a and b"<<endl;
+    cin>>a;
+    cin>>b;
+
+    cout<<(a>b);
+}
+
+
+#include <iostream>
+using namespace std;  
+int main()
+{
+    int a,b,c,d;
+    cout<<"Input 4 integers"<<endl;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    cin>>d;
+
+    cout<<(a>b && c>d);
+    cout<<(a>b || c>d);
+}
+
+
+#include <iostream>
+using namespace std;  
+int main()
+{
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    if(a>b && c>d){
+        cout<<"haha";
+    }
+    else if(a>b && c<d){
+        cout<<"hehe";
+    }
+    else{
+        cout<<"huhu";
+    }
+   return 0; 
+}
+
+#include <iostream>
+using namespace std;  
+int main()
+{
+    int a;
+    cin>>a;
+
+    switch(a)
+    {
+        case 1:
+        cout<<"The value of a is 1";
+        break;
+        case 2:
+        cout<<"The value of a is 2";
+        break;
+        default:
+        cout<<"Default value";
+        break;
+    }
+
+    return 0;
+}
